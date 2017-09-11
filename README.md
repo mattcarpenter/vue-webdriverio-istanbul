@@ -1,6 +1,6 @@
 # istanbul-e2e
 
-> A Vue.js project
+> A Vue.js with Webdriver.io and Istanbul 
 
 ## Build Setup
 
@@ -20,8 +20,10 @@ npm run build --report
 # run unit tests
 npm run unit
 
-# run all tests
-npm test
-```
+# run e2e tests
+npm e2e
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Generate a code coverage report
+node coveage.js
+open coverage/index.html
+```
