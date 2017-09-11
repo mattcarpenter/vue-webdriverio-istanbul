@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 describe('Todo List', function () {
 
   beforeEach(function () {
