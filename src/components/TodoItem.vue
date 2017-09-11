@@ -7,8 +7,8 @@
         {{ todo.text }}
       </div>
       <div class="extra">
-        <a href="#" v-on:click="edit">Edit</a> |
-        <a href="#" v-on:click="remove">Remove</a>
+        <a href="#" v-on:click="edit" class="btn btn-edit">Edit</a> |
+        <a href="#" v-on:click="remove" class="btn btn-remove">Remove</a>
       </div>
     </div>
     <div class="content" v-show="isEditing">
@@ -16,8 +16,8 @@
         <input type="text" v-model="text">
       </div>
       <div class="extra">
-      <a href="#" v-on:click="save">Save</a> |
-      <a href="#" v-on:click="cancel">Cancel</a>
+      <a href="#" v-on:click="save" class="btn btn-save">Save</a> |
+      <a href="#" v-on:click="cancel" class="btn btn-cancel">Cancel</a>
     </div>
     </div>
   </li>

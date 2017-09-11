@@ -10,8 +10,8 @@
         v-on:remove-todo="removeTodo"></todo-item>
     </ul>
     <div class="controls">
-      <input type="text" id="new-todo" v-model="newTodoText"><br/>
-      <a href="#" v-on:click="createTodo">Create</a>
+      <input type="text" id="new-todo-input" v-model="newTodoText"><br/>
+      <a href="#" v-on:click="createTodo" id="new-todo">Create</a>
     </div>
   </div>
 </template>
